@@ -16,7 +16,7 @@ ENV EDITOR /usr/bin/vim
 
 WORKDIR /var/www
 
-COPY /nginx-v1/index.html /var/www/html/
+COPY ./index.html /var/www/html/
 
 EXPOSE 80
 
